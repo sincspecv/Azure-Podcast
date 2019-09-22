@@ -38,6 +38,12 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'AZURE_PODCAST_VERSION', '0.1.0' );
 
 /**
+ * Require composer dependencies:
+ * - Guzzle 6
+ */
+require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
+
+/**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-azure-podcast-activator.php
  */

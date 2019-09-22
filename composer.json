@@ -1,0 +1,15 @@
+{
+    "name": "tfr/azure-podcast",
+    "description": "WordPress plugin to aggregate podcast audio hosted on Microsoft Azure",
+    "type": "project",
+    "license": "GPL 2.0",
+    "authors": [
+        {
+            "name": "Matthew Schroeter",
+            "email": "matt@thefancyrobot.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
